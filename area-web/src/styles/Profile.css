@@ -1,0 +1,161 @@
+.Profile {
+    width: 100%;
+    min-height: calc(100vh - 64px);
+
+    background-image: url(/public/images/dashboard.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    border-top: black 64px solid;
+}
+
+.Profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: clamp(278px, 80%, 736px);
+    height: 100%;
+    max-height: 550px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.Profile .Profile-card .Profile-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0 20px 0;
+}
+
+.Profile .Profile-card .Profile-card-header .Profile-card-header-pic span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0;
+    color: var(--color-light);
+    background-color: var(--color-primary-dark);
+}
+
+.Profile .Profile-card .Profile-card-header span {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.Profile .Profile-card .Profile-card-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 10px 0 10px;
+}
+
+.Profile .Profile-card .Profile-card-body .Profile-card-body-app {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 119px;
+    height: 100px;
+    justify-content: space-evenly;
+}
+
+.Profile .Profile-card .Profile-card-body .Profile-card-body-app img {
+    width: 45px;
+    height: 45px;
+}
+
+.Profile .Profile-card .Profile-card-body .Profile-card-body-app button {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: #007aff;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.Profile .Profile-card .Profile-card-body .Profile-card-body-app .disconnect {
+    background-color: #ff3b30;
+}
+
+.TokenInterface-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000c0;
+    top: 64px;
+    width: 100%;
+    height: calc(100vh - 64px);
+}
+
+.TokenInterface {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    height: 15%;
+    max-height: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.TokenInterface input {
+    border-bottom: 1px solid #7c7c7c;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    width: 60%;
+    transition: 0.2s;
+}
+
+.TokenInterface input:focus {
+    border-bottom: 1px solid #569fff;
+}
+
+.TokenInterface button {
+    width: 30%;
+    height: 30px;
+    text-align: center;
+    background-color: #007aff;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.TokenInterface button:hover {
+    background-color: #0062cc;
+}
+
+.TokenInterface button:disabled {
+    background-color: #c7c7c7;
+    cursor: not-allowed;
+}
+
+@media screen and (max-width: 769px) {
+
+    .Profile .Profile-card .Profile-card-body {
+        flex-wrap: wrap;
+    }
+
+    .Profile .Profile-card .Profile-card-body .Profile-card-body-app {
+        margin: 10px;   
+    }
+}

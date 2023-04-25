@@ -1,0 +1,110 @@
+[
+  {
+    "service": "Outlook",
+    "title": "Inbox message reception",
+    "description": "New message in inbox.",
+    "resource": "me/messages",
+    "actions": [
+      "created"
+    ]
+  },
+  {
+    "service": "Outlook",
+    "title": "Inbox message deletion",
+    "description": "Message deleted from inbox.",
+    "resource": "me/messages",
+    "actions": [
+      "deleted"
+    ]
+  },
+  {
+    "service": "Contacts",
+    "title": "Contact creation",
+    "description": "New contact created.",
+    "resource": "me/contacts",
+    "actions": [
+      "created"
+    ]
+  },
+  {
+    "service": "Contacts",
+    "title": "Contact edition",
+    "description": "Contact edited.",
+    "resource": "me/contacts",
+    "actions": [
+      "updated"
+    ]
+  },
+  {
+    "service": "Contacts",
+    "title": "Contact deletion",
+    "description": "Contact deleted.",
+    "resource": "me/contacts",
+    "actions": [
+      "deleted"
+    ]
+  },
+  {
+    "service": "OneDrive",
+    "title": "File creation/edition/deletion",
+    "description": "File created, edited or deleted.",
+    "resource": "me/drive/root",
+    "actions": [
+      "updated"
+    ]
+  },
+  {
+    "service": "To-Do",
+    "title": "Task creation",
+    "description": "New task created.",
+    "resource": "me/todo/lists/{listId}/tasks",
+    "actions": [
+      "created"
+    ]
+  },
+  {
+    "service": "To-Do",
+    "title": "Task edition",
+    "description": "Task edited.",
+    "resource": "me/todo/lists/{listId}/tasks",
+    "actions": [
+      "updated"
+    ]
+  },
+  {
+    "service": "To-Do",
+    "title": "Task deletion",
+    "description": "Task deleted.",
+    "resource": "me/todo/lists/{listId}/tasks",
+    "actions": [
+      "deleted"
+    ]
+  },
+  {
+    "service": "Calendar",
+    "title": "Event creation",
+    "description": "New event created.",
+    "resource": "me/events",
+    "actions": [
+      "created"
+    ]
+  },
+  {
+    "service": "Calendar",
+    "title": "Event edition",
+    "description": "Event edited.",
+    "resource": "me/events",
+    "actions": [
+      "updated"
+    ]
+  },
+  {
+    "service": "Calendar",
+    "title": "Event deletion",
+    "description": "Event deleted.",
+    "resource": "me/events",
+    "actions": [
+      "deleted"
+    ]
+  }
+]

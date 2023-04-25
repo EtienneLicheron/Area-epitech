@@ -1,0 +1,38 @@
+[
+    {
+        "service": "Gmail",
+        "title": "Inbox message reception",
+        "description": "Message received in your inbox.",
+        "labelId": "INBOX"
+    },
+    {
+        "service": "Gmail",
+        "title": "Inbox message reception of a spam",
+        "description": "Spam received in your inbox.",
+        "labelId": "SPAM"
+    },
+    {
+        "service": "Gmail",
+        "title": "Send message",
+        "description": "Message sent.",
+        "labelId": "SENT"
+    },
+    {
+        "service": "Gmail",
+        "title": "Draft message",
+        "description": "Message saved as draft.",
+        "labelId": "DRAFT"
+    },
+    {
+        "service": "Gmail",
+        "title": "Trashed message",
+        "description": "Message trashed.",
+        "labelId": "TRASH"
+    },
+    {
+        "service": "Gmail",
+        "title": "Message starred",
+        "description": "Message starred.",
+        "labelId": "STARRED"
+    }
+]

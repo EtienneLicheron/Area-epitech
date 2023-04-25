@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Github",
+        "body": "Send a tweet when a new issue is created in a repository!"
+
+    },
+    {
+        "name": "Hue",
+        "body": "Light up a signal when you receive a mail!"
+
+    },
+    {
+        "name": "Twitter",
+        "body": "send a tweet whenever you receive a mail!"
+    },
+    {
+        "name": "Microsoft",
+        "body": "Light up your room when your send a mail!"
+    },
+    {
+        "name": "Google",
+        "body": "Create an event in your calendar when your repo receives a star!"
+    }
+]

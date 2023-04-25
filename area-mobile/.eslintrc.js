@@ -1,0 +1,80 @@
+module.exports = {
+  root: true,
+  env: {
+    node: true,
+  },
+  commonJs: true,
+  extends: [
+    "@react-native-community",
+    // "plugin:import/recommended",
+    // "plugin:import/typescript",
+  ],
+  overrides: [
+    {
+      files: ["*.ts", "*.tsx"],
+      plugins: ["@react-native-community"],
+      rules: {
+        "react-native/no-inline-styles": 0,
+      },
+    },
+  ],
+  rules: {
+    semi: ["error", "never"],
+    "comma-dangle": ["error", "always-multiline"],
+    "quote-props": ["error", "as-needed"],
+    "no-unused-vars": "off",
+    // "import/order": [
+    //   "error",
+    //   {
+    //     groups: [
+    //       "builtin",
+    //       "external",
+    //       "parent",
+    //       "sibling",
+    //       "index",
+    //       "internal",
+    //       "object",
+    //     ],
+    //   },
+    // ],
+    // "import/extensions": [
+    //   "error",
+    //   {
+    //     js: "never",
+    //     jsx: "never",
+    //     svg: "always",
+    //     ts: "never",
+    //     tsx: "never",
+    //   },
+    // ],
+    // "import/prefer-default-export": "off",
+    // "jsx-a11y/anchor-is-valid": "off",
+    "react/no-unstable-nested-components": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/no-children-prop": ["warn"],
+    "react/jsx-no-leaked-render": ["warn", { validStrategies: ["ternary"] }],
+    "react/jsx-filename-extension": ["warn", { extensions: [".ts", ".tsx"] }],
+    "react/no-namespace": "off",
+    "react/react-in-jsx-scope": "off",
+    "react-hooks/exhaustive-deps": "warn",
+    "prettier/prettier": [
+      "error",
+      {
+        printWidth: 120,
+        tabWidth: 4,
+        useTabs: true,
+        semi: false,
+        singleQuote: true,
+        quoteProps: "as-needed",
+        jsxSingleQuote: false,
+        trailingComma: "all",
+        bracketSpacing: true,
+        jsxBracketSameLine: false,
+        arrowParens: "always",
+        proseWrap: "preserve",
+        htmlWhitespaceSensitivity: "css",
+        endOfLine: "lf",
+      },
+    ],
+  },
+};

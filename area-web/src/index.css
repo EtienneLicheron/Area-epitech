@@ -1,0 +1,99 @@
+#root {
+  --color-primary-dark: #24282f;
+  --color-primary: #282c34;
+  --color-primary-light: #2c3039;
+
+  --color-secondary: #D3D3D5;
+  
+  --color-light: #FFFFFF;
+  --color-link: #0082ff;
+}
+
+body {
+  margin: 0;
+}
+
+code {
+  font-family: unset;
+}
+
+input {
+  writing-mode: unset;
+  font-style: unset;
+  font-variant-ligatures: unset;
+  font-variant-caps: unset;
+  font-variant-numeric: unset;
+  font-variant-east-asian: unset;
+  font-weight: unset;
+  font-stretch: unset;
+  font-size: unset;
+  font-family: unset;
+  text-rendering: unset;
+  color: unset;
+  letter-spacing: unset;
+  word-spacing: unset;
+  line-height: unset;
+  text-transform: unset;
+  text-indent: unset;
+  text-shadow: unset;
+  display: unset;
+  text-align: unset;
+  appearance: unset;
+  -webkit-rtl-ordering: unset;
+  cursor: unset;
+  background-color: unset;
+  margin: unset;
+  padding: unset;
+  border-width: unset;
+  border-style: unset;
+  border-color: unset;
+  border-image: unset;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+h1 {
+  display: unset;
+  font-size: unset;
+  margin-block-start: unset;
+  margin-block-end: unset;
+  margin-inline-start: unset;
+  margin-inline-end: unset;
+  font-weight: unset;
+}
+
+button {
+  appearance: unset;
+  writing-mode: unset;
+  font-style: unset;
+  font-variant-ligatures: unset;
+  font-variant-caps: unset;
+  font-variant-numeric: unset;
+  font-variant-east-asian: unset;
+  font-weight: unset;
+  font-stretch: unset;
+  font-size: unset;
+  font-family: unset;
+  text-rendering: unset;
+  color: unset;
+  letter-spacing: unset;
+  word-spacing: unset;
+  line-height: unset;
+  text-transform: unset;
+  text-indent: unset;
+  text-shadow: unset;
+  display: unset;
+  text-align: unset;
+  align-items: unset;
+  cursor: pointer;
+  box-sizing: unset;
+  background-color: unset;
+  margin: unset;
+  padding: unset;
+  border-width: unset;
+  border-style: unset;
+  border-color: unset;
+  border-image: unset;
+}

@@ -1,0 +1,38 @@
+.Dashboard {
+    width: 100%;
+    min-height: calc(100vh - 64px);
+
+    background-image: url(/public/images/dashboard.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    border-top: black 64px solid;
+}
+
+.Dashboard h1 {
+    font-size: 52px;
+    color: white;
+    font-weight: bold;
+}
+
+.Dashboard-container {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    text-align: center;
+}
+
+.Dashboard-container h2 {
+    font-weight: 100!important;
+}
+
+.Dashboard-container a {
+    color: white;
+}

@@ -1,0 +1,387 @@
+.Services {
+    width: 100%;
+    min-height: calc(100vh - 64px);
+
+    background-image: url(/public/images/dashboard.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Roboto', sans-serif;
+    border-top: black 64px solid;
+}
+
+.Button-create-event {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 200px;
+    font-size: 1rem;
+    position: absolute;
+    border-radius: 0 0px 5px 5px;
+    right: 5vh;
+}
+
+.Create-event-container {
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Create-event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: clamp(270px, 50%, 400px);
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.Create-event .Button-close {
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.Create-event .Create-event-header {
+    display: flex;
+    margin: 0 0 8px 0;
+    align-items: center;
+}
+
+.Create-event .Create-event-header h1 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.Create-event .Create-event-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 0 32px 0;
+    width: 100%;
+    height: 100%;
+}
+
+.Create-event .Create-event-body .basic-single {
+    width: 200px;
+    margin: 8px 0;
+}
+
+.Create-event .Create-event-body button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: 16px 0 0 0;
+    background-color: #0066ff;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.Services .Events {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: -webkit-fill-available;
+    flex-wrap: wrap;
+}
+
+.Services .Event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    max-width: clamp(270px, 50%, 200px);
+    height: 100%;
+    margin: 10px 0 10px 0;
+}
+
+.Services .Event .closeButton {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-right: 8px;
+    align-items: center;
+}
+
+.Services .Event .Event-header {
+    align-items: center;
+    display: flex;
+    margin: 5px 0 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.Services .Event .Event-header img {
+    width: 20px;
+}
+
+.Services .Event .Event-header .Event-header-title {
+    display: flex;
+    width: 80%;
+}
+
+.Services .Event .Event-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 5px 0 10px 0;
+}
+
+.Services .Event .Event-body .add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #0066ff;
+    width: 75%;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.Services .Event .Event-body .Event-body-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 100%;
+    border-color: hsl(0, 0%, 80%);
+    border-radius: 4px;
+    min-height: 35px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.Services .Event .Event-body .Event-body-actions span {
+    text-align: center;
+    max-width: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.Services .Event .Event-body .Event-body-actions img {
+    width: 20px;
+    height: 20px;
+}
+
+.Services .Event .Event-body .Event-body-actions .badge-on {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    width: 20px;
+    height: 20px;
+    background-color: #198754;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    color: #fff;
+}
+
+.Services .Event .Event-body .Event-body-actions .badge-off {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    width: 20px;
+    height: 20px;
+    background-color: #dc3545;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    color: #fff;
+}
+
+.Services .Event .Event-body .Event-body-actions button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000d5;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.Services .Event .Action-creation-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000c0;
+    top: 64px;
+    width: 100%;
+    left: 0;
+    height: calc(100vh - 64px);
+}
+
+.Services .Event .Action-creation-container .Action-creation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: clamp(270px, 50%, 400px);
+    max-height: clamp(270px, 50%, 575px);
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.Services .Event .Action-creation-container .Action-creation .Action-creation-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 5px 0;
+    width: 100%;
+}
+
+.Services .Event .Action-creation-container .Action-creation .Action-creation-header span {
+    margin: auto;
+}
+
+.Services .Event .Action-creation-container .Action-creation .close {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.Services .Event .Action-creation-container .Action-creation .Action-creation-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 5px 0 40px 0;
+}
+
+.Services .Event .Action-creation-container .Action-creation .Action-creation-body .basic-single {
+    width: 250px;
+    margin: 8px 0;
+}
+
+
+.Services .Event .Action-creation-container .Action-creation .Action-creation-body .numInput {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    min-height: 38px;
+    border-color: hsl(0, 0%, 80%);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 8px 0;
+}
+
+.Services .Event .Action-creation-container .Action-creation .Action-creation-body .numInput input {
+    width: 250px;
+    height: 100%;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Services .Event .Action-creation-container .Action-creation .Action-creation-body button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #0066ff;
+    width: 75%;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+.hueCreation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.twitterCreation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tekmeCreation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.googleCreation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.microsoftCreation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.googleCreation .basic-single {
+    width: 250px;
+    margin: 8px 0;
+}
+
+.tekmeCreation .basic-single {
+    width: 250px;
+    margin: 8px 0;
+}
+
+.Services .Action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 5px 0 5px 0;
+}
+
+
+@media screen and (max-width: 769px) {
+    .Services {
+        flex-direction: column;
+    }
+
+    .Create-event {
+        margin: 0 0 10px 0;
+    }
+
+    .Create-reaction {
+        margin: 10px 0 0 0;
+    }
+}

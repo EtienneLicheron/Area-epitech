@@ -1,0 +1,459 @@
+[
+  {
+    "title": "Branch or tag creation",
+    "description": "Branch or tag created.",
+    "event": "create",
+    "actions": []
+  },
+  {
+    "title": "Branch or tag deletion",
+    "description": "Branch or tag deleted.",
+    "event": "delete",
+    "actions": []
+  },
+  {
+    "title": "Branch protection rules",
+    "description": "Branch protection rule created, deleted or edited.",
+    "event": "branch_protection_rule",
+    "actions": [
+      "created",
+      "deleted",
+      "edited"
+    ]
+  },
+  {
+    "title": "Check runs",
+    "description": "Check run is created, requested, rerequested, or completed.",
+    "event": "check_run",
+    "actions": [
+      "completed",
+      "created",
+      "requested_action",
+      "rerequested"
+    ]
+  },
+  {
+    "title": "Check suites",
+    "description": "Check suite is requested, rerequested, or completed.",
+    "event": "check_suite",
+    "actions": [
+      "completed",
+      "created",
+      "requested_action",
+      "rerequested"
+    ]
+  },
+  {
+    "title": "Code scanning alerts",
+    "description": "Code Scanning alert created, fixed in branch, or closed.",
+    "event": "code_scanning_alert",
+    "actions": [
+      "appeared_in_branch",
+      "closed_by_user",
+      "created",
+      "fixed",
+      "reopened",
+      "reopened_by_user"
+    ]
+  },
+  {
+    "title": "Collaborator add, remove, or changed",
+    "description": "Collaborator added to, removed from, or has changed permissions for a repository.",
+    "event": "member",
+    "actions": [
+      "added",
+      "edited",
+      "removed"
+    ]
+  },
+  {
+    "title": "Commit comments",
+    "description": "Commit or diff commented on.",
+    "event": "commit_comment",
+    "actions": [
+      "created"
+    ]
+  },
+  {
+    "title": "Dependabot alerts",
+    "description": "Dependabot alert created, dismissed, reopened, fixed, or reintroduced.",
+    "event": "dependabot_alert",
+    "actions": [
+      "created",
+      "dismissed",
+      "fixed",
+      "reintroduced",
+      "reopened"
+    ]
+  },
+  {
+    "title": "Deploy keys",
+    "description": "A deploy key is created or deleted from a repository.",
+    "event": "deploy_key",
+    "actions": [
+      "created",
+      "deleted"
+    ]
+  },
+  {
+    "title": "Deployment statuses",
+    "description": "Deployment status updated from the API.",
+    "event": "deployment_status",
+    "actions": [
+      "created"
+    ]
+  },
+  {
+    "title": "Deployments",
+    "description": "Repository was deployed or a deployment was deleted.",
+    "event": "deployment",
+    "actions": [
+      "created"
+    ]
+  },
+  {
+    "title": "Discussion comments",
+    "description": "Discussion comment created, edited, or deleted.",
+    "event": "discussion_comment",
+    "actions": [
+      "created",
+      "deleted",
+      "edited"
+    ]
+  },
+  {
+    "title": "Discussions",
+    "description": "Discussion created, edited, pinned, unpinned, locked, unlocked, transferred, answered, unanswered, labeled, unlabeled, had its category changed, or was deleted.",
+    "event": "discussion",
+    "actions": [
+      "answered",
+      "category_changed",
+      "created",
+      "deleted",
+      "edited",
+      "labeled",
+      "locked",
+      "pinned",
+      "transferred",
+      "unanswered",
+      "unlabeled",
+      "unlocked",
+      "unpinned"
+    ]
+  },
+  {
+    "title": "Forks",
+    "description": "Repository forked.",
+    "event": "fork",
+    "actions": []
+  },
+  {
+    "title": "Issue comments",
+    "description": "Issue comment created, edited, or deleted.",
+    "event": "issue_comment",
+    "actions": [
+      "created",
+      "deleted",
+      "edited"
+    ]
+  },
+  {
+    "title": "Issues",
+    "description": "Issue opened, edited, deleted, transferred, pinned, unpinned, closed, reopened, assigned, unassigned, labeled, unlabeled, milestoned, demilestoned, locked, or unlocked.",
+    "event": "issues",
+    "actions": [
+      "assigned",
+      "closed",
+      "deleted",
+      "demilestoned",
+      "edited",
+      "labeled",
+      "locked",
+      "milestoned",
+      "opened",
+      "pinned",
+      "reopened",
+      "transferred",
+      "unassigned",
+      "unlabeled",
+      "unlocked",
+      "unpinned"
+    ]
+  },
+  {
+    "title": "Labels",
+    "description": "Label created, edited or deleted.",
+    "event": "label",
+    "actions": [
+      "created",
+      "deleted",
+      "edited"
+    ]
+  },
+  {
+    "title": "Milestones",
+    "description": "Milestone created, closed, opened, edited, or deleted.",
+    "event": "milestone",
+    "actions": [
+      "closed",
+      "created",
+      "deleted",
+      "edited",
+      "opened"
+    ]
+  },
+  {
+    "title": "Packages",
+    "description": "GitHub Packages published or updated in a repository.",
+    "event": "package",
+    "actions": [
+      "published",
+      "updated"
+    ]
+  },
+  {
+    "title": "Page builds",
+    "description": "Pages site built.",
+    "event": "page_build",
+    "actions": []
+  },
+  {
+    "title": "Project cards",
+    "description": "Project card created, updated, or deleted.",
+    "event": "project_card",
+    "actions": [
+      "converted",
+      "created",
+      "deleted",
+      "edited",
+      "moved"
+    ]
+  },
+  {
+    "title": "Project columns",
+    "description": "Project column created, updated, moved or deleted.",
+    "event": "project_column",
+    "actions": [
+      "created",
+      "deleted",
+      "edited",
+      "moved"
+    ]
+  },
+  {
+    "title": "Projects",
+    "description": "Project created, updated, or deleted.",
+    "event": "project",
+    "actions": [
+      "closed",
+      "created",
+      "deleted",
+      "edited",
+      "reopened"
+    ]
+  },
+  {
+    "title": "Pull request review comments",
+    "description": "Pull request diff comment created, edited, or deleted.",
+    "event": "pull_request_review_comment",
+    "actions": [
+      "created",
+      "deleted",
+      "edited"
+    ]
+  },
+  {
+    "title": "Pull request review threads",
+    "description": "A pull request review thread was resolved or unresolved.",
+    "event": "pull_request_review_thread",
+    "actions": [
+      "resolved",
+      "unresolved"
+    ]
+  },
+  {
+    "title": "Pull request reviews",
+    "description": "Pull request review submitted, edited, or dismissed.",
+    "event": "pull_request_review",
+    "actions": [
+      "dismissed",
+      "edited",
+      "submitted"
+    ]
+  },
+  {
+    "title": "Pull requests",
+    "description": "Pull request assigned, auto merge disabled, auto merge enabled, closed, converted to draft, demilestoned, dequeued, edited, enqueued, labeled, locked, milestoned, opened, ready for review, reopened, review request removed, review requested, synchronized, unassigned, unlabeled, or unlocked.",
+    "event": "pull_request",
+    "actions": [
+      "assigned",
+      "auto_merge_disabled",
+      "auto_merge_enabled",
+      "closed",
+      "converted_to_draft",
+      "demilestoned",
+      "dequeued",
+      "edited",
+      "enqueued",
+      "labeled",
+      "locked",
+      "milestoned",
+      "opened",
+      "ready_for_review",
+      "reopened",
+      "review_request_removed",
+      "review_requested",
+      "synchronize",
+      "unassigned",
+      "unlabeled",
+      "unlocked"
+    ]
+  },
+  {
+    "title": "Pushes",
+    "description": "Git push to a repository.",
+    "event": "push",
+    "actions": []
+  },
+  {
+    "title": "Registry packages",
+    "description": "Registry package published or updated in a repository.",
+    "event": "registry_package",
+    "actions": [
+      "published",
+      "default"
+    ]
+  },
+  {
+    "title": "Releases",
+    "description": "Release created, edited, published, unpublished, or deleted.",
+    "event": "release",
+    "actions": [
+      "created",
+      "deleted",
+      "edited",
+      "prereleased",
+      "published",
+      "released",
+      "unpublished"
+    ]
+  },
+  {
+    "title": "Repositories",
+    "description": "Repository created, deleted, archived, unarchived, publicized, privatized, edited, renamed, or transferred.",
+    "event": "repository",
+    "actions": [
+      "archived",
+      "created",
+      "deleted",
+      "edited",
+      "privatized",
+      "publicized",
+      "renamed",
+      "transferred",
+      "unarchived"
+    ]
+  },
+  {
+    "title": "Repository imports",
+    "description": "Repository import succeeded, failed, or cancelled.",
+    "event": "repository_import",
+    "actions": []
+  },
+  {
+    "title": "Repository vulnerability alerts",
+    "description": "Dependabot alert (aka dependency vulnerability alert) created, resolved, or dismissed on a repository.",
+    "event": "repository_vulnerability_alert",
+    "actions": [
+      "create",
+      "dismiss",
+      "reopen",
+      "resolve"
+    ]
+  },
+  {
+    "title": "Secret scanning alert locations",
+    "description": "Secrets scanning alert location created.",
+    "event": "secret_scanning_alert_location",
+    "actions": [
+      "created"
+    ]
+  },
+  {
+    "title": "Secret scanning alerts",
+    "description": "Secrets scanning alert created, resolved, or reopened.",
+    "event": "secret_scanning_alert",
+    "actions": [
+      "created",
+      "reopened",
+      "resolved",
+      "revoked"
+    ]
+  },
+  {
+    "title": "Security and analyses",
+    "description": "Code security and analysis features enabled or disabled for a repository.",
+    "event": "security_advisory",
+    "actions": [
+      "published",
+      "updated",
+      "withdrawn"
+    ]
+  },
+  {
+    "title": "Stars",
+    "description": "A star is created or deleted from a repository.",
+    "event": "star",
+    "actions": [
+      "created",
+      "deleted"
+    ]
+  },
+  {
+    "title": "Statuses",
+    "description": "Commit status updated from the API.",
+    "event": "status",
+    "actions": []
+  },
+  {
+    "title": "Visibility changes",
+    "description": "Repository changes from private to public.",
+    "event": "public",
+    "actions": []
+  },
+  {
+    "title": "Watches",
+    "description": "User stars a repository.",
+    "event": "watch",
+    "actions": [
+      "started"
+    ]
+  },
+  {
+    "title": "Wiki",
+    "description": "Wiki page updated.",
+    "event": "gollum",
+    "actions": []
+  },
+  {
+    "title": "Workflow jobs",
+    "description": "Workflow job queued, waiting, in progress, or completed on a repository.",
+    "event": "workflow_job",
+    "actions": [
+      "completed",
+      "in_progress",
+      "queued",
+      "waiting"
+    ]
+  },
+  {
+    "title": "Workflow runs",
+    "description": "Workflow run requested or completed on a repository.",
+    "event": "workflow_run",
+    "actions": [
+      "completed",
+      "in_progress",
+      "requested"
+    ]
+  }
+]
