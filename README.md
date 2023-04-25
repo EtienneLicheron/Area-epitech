@@ -112,6 +112,5 @@ We chose react native as techno with expo and typescript because I already know 
 - [@BenjaminVic](https://github.com/Benjamin-Vic) - API with NestJS
 - [@SebastienPhelip](https://github.com/seb34000) - Mobile Application with React Native
 - [@LaurentAmat](https://github.com/Lqvrent) - Project build with Docker
-- [@NoeSellam](https://github.com/GDGiantDwarf) - API with NestJS
 
 
